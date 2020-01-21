@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: lightcoral;
+}
+.container{
+    background: rgba(25, 10, 160, 0);
+    
+    width: 600px;
+    height: 300px;
+
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 200px;
+    color: #fff;
+}
+thead{
+    background: green;
+    color: #fff;
+    text-align: left;
+}
+th{
+    height: 50px;
+}
+th,td{
+    border: 1px solid #000;
+}
+/*td{
+    background: #a00;
+
+}
+
+ tr:hover td{
+    background: #002244b9;
+} */
